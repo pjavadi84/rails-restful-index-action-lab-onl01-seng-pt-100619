@@ -1,0 +1,5 @@
+<h1>Teacher's list</h1>
+
+<% @teacher.each do |t| %>
+    <li><%= t.teacher_first_name %>, <%= t.teacher_last_name %></li>
+<% end %>
